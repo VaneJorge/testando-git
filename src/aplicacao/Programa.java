@@ -3,7 +3,8 @@ package aplicacao;
 public class Programa {
 
 	public static void main(String[] args) {
-		System.print.out("Hello world!");
+		for (int i = 0; i <= 10; i++) {
+			System.print.out("Hello world " + i + "!");
+		}
 	}
-
 }
